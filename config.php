@@ -1,5 +1,5 @@
 <?php 
-require "./vendor/autoload.php";
+require "vendor/autoload.php";
 //var_dump($_SERVER['REQUEST_METHOD'],$_SERVER['PATH_INFO']); die();
 use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(__DIR__);
