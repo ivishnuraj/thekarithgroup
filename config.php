@@ -18,7 +18,7 @@ date_default_timezone_set('Asia/Kolkata');
 
 // Set URL 
 
-define('siteurl', $_ENV['SITE_URL'] ?? 'localhost',);
+define('siteurl', $_ENV['SITE_URL'] ?? 'http://thekarithgroup.test',);
 
 include "functions.php";
 LoadPage();
